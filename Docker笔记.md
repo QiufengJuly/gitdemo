@@ -193,7 +193,7 @@ Hello CloudMan
 - 如果 Docker 镜像的用途是运行应用程序或服务，比如运行一个 MySQL，应该优先使用 Exec 格式的 ENTRYPOINT 指令。CMD 可为 ENTRYPOINT 提供额外的默认参数，同时可利用 docker run 命令行替换默认参数。
 - 如果想为容器设置默认的启动命令，可使用 CMD 指令。用户可在 docker run 命令行中替换此默认命令。
 
-#一个DockerFile栗子
+# 一个DockerFile栗子
 
 ```dockerfile
 FROM centos
